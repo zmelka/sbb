@@ -1,11 +1,10 @@
 package com.mysite.sbb;
 
-import java.time.LocalDateTime;
-
-import javax.persistence.*;
-
 import lombok.Getter;
 import lombok.Setter;
+
+import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Getter
 @Setter
