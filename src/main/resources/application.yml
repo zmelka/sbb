@@ -1,5 +1,9 @@
 server:
+<<<<<<< HEAD
   port: 8087
+=======
+  port : 8087
+>>>>>>> ddd55dd52c4f338a1ec271afdfdf0cef8fbccb39
 spring:
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
@@ -12,7 +16,11 @@ spring:
         show_sql: true
         format_sql: true
         use_sql_comments: true
+<<<<<<< HEAD
         dialect: org.hibernate.dialect.MariaDB103Dialect
+=======
+        dialect:  org.hibernate.dialect.MariaDB103Dialect
+>>>>>>> ddd55dd52c4f338a1ec271afdfdf0cef8fbccb39
 logging:
   level:
     org:

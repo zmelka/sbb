@@ -1,4 +1,5 @@
 DROP DATABASE IF EXISTS sbb_2nd;
+<<<<<<< HEAD
 CREATE DATABASE sbb_2nd;
 USE sbb_2nd;
 
@@ -15,3 +16,7 @@ CREATE TABLE answer (
   question_id BIGINT UNSIGNED NOT NULL,
   content TEXT NOT NULL
 );
+=======
+CREATE DATABASE  sbb_2nd;
+USE sbb_2nd;
+>>>>>>> ddd55dd52c4f338a1ec271afdfdf0cef8fbccb39
